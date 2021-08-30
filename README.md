@@ -18,7 +18,7 @@ combination of Primary Key and Sort Key uniquely identifies each item in a Dynam
 
 1. For **Primary key**, type `titleID` and leave **String** selected.
 
-1. for **Sort key**, type `startYear` and leave **String** selected.
+1. for **Sort key**, type `availabilityStart` and leave **String** selected.
 
     Your table will use default settings for indexes and provisioned capacity.
 
