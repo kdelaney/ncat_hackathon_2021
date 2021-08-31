@@ -6,7 +6,7 @@ Your mentor will provide instructions to log into the AWS console.
 
 ## Step 2: Create a DynamoDB table for catalog records
 
-In this step, you will create a new table in [AWS DynamoDB](DynamoDB) named *Catalog*. Each table requires a Primary
+In this step, you will create a new table in [AWS DynamoDB][DynamoDB] named *Catalog*. Each table requires a Primary
 Key that is used to partition data across DynamoDB servers. A table can also have a Sort Key. The
 combination of Primary Key and Sort Key uniquely identifies each item in a DynamoDB table.
 
@@ -27,7 +27,7 @@ combination of Primary Key and Sort Key uniquely identifies each item in a Dynam
 
 ## Step 3: Create an AWS Lambda Function to copy catalog records into DynamoDB
 
-In this step, you will create an [AWS Lambda](Lambda) function that reads the catalog dataset into your
+In this step, you will create an [AWS Lambda][Lambda] function that reads the catalog dataset into your
 DynamoDB table. You will run the Lambda function once to load your initial catalog database. Feel
 free to alter it and rerun as needed if you need to recreate your database.
 
@@ -107,7 +107,7 @@ free to alter it and rerun as needed if you need to recreate your database.
     * Receives an Event and Context (both are ignored)
     * Downloads the dataset
     * Reads the CSV
-    * Puts the data into DynamoDB using [boto3](boto3) (the AWS SDK for Python).
+    * Puts the data into DynamoDB using [boto3][boto3] (the AWS SDK for Python).
 
 1. Click **Deploy**.
 
@@ -118,7 +118,7 @@ free to alter it and rerun as needed if you need to recreate your database.
 1. For **Event name**, type `TestEvent`.
 
     :information_source: Usually lambdas handle some sort of `Event`, such as a message from
-    [SNS](SNS) or [SQS](SQS) or an update from [S3](S3) or [DynamoDB](DynamoDB).
+    [SNS][SNS] or [SQS][SQS] or an update from [S3][S3] or [DynamoDB][DynamoDB].
     In this case, we just invoke the lambda once, ignoring the event.
 
 1. Click **Create**.
@@ -174,12 +174,12 @@ Now you are ready to start hacking! Some questions to ponder:
 
 ## Resources
 
-* [boto3](boto3)
-* [S3](S3)
-* [DynamoDB](DynamoDB)
-* [Lambda](Lambda)
-* [SNS](SNS)
-* [SQS](SQS)
+* [boto3][boto3]
+* [S3][S3]
+* [DynamoDB][DynamoDB]
+* [Lambda][Lambda]
+* [SNS][SNS]
+* [SQS][SQS]
 
 [boto3]: https://boto3.amazonaws.com/v1/documentation/api/latest/index.httml
 [S3]: https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html
