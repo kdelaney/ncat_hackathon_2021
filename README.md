@@ -33,7 +33,7 @@ free to alter it and rerun as needed if you need to recreate your database.
 
 1. On the **Services** menu, click **Lambda**.
 
-    :warning: Do not change the Region. You must us **US East (Virginia)** for this hackathon
+    :warning: Do not change the Region. You must use **US East (Virginia)** for this hackathon
 
 1. Click **Create function**.
 
@@ -167,19 +167,53 @@ Now you are ready to start hacking! Some questions to ponder:
 * Does your solution show customer obsession?
   * Does it spark action and ignite interest?
   * Does it serve all customers and communities?
-  * Is it simple, personal, delightful?
+  * Is it simple, personal and delightful?
   * Does it contribute to an immersive entertainment experience?
-* What other customer problems can you solve using this data?
-  What can you invent and simplify? How else can you think big?
+* What other customer problems can you solve using this data? What can you invent and simplify? How else can you think big?
 
-## Resources
+## AWS Cheat Sheet
 
-* [boto3][boto3]
-* [S3][S3]
-* [DynamoDB][DynamoDB]
-* [Lambda][Lambda]
-* [SNS][SNS]
-* [SQS][SQS]
+**AWS**
+
+1. [AWS Products - Guides and API References](https://aws.amazon.com/getting-started/products/#Guides_and_API_References)
+2. [SDK for Java](https://aws.amazon.com/sdk-for-java/)
+3. [SDK for Python](https://aws.amazon.com/sdk-for-python/)
+4. [SDK for Javascript/Node.js](https://aws.amazon.com/sdk-for-javascript/)
+5. [AWS Documentation by Programming Language](https://aws.amazon.com/tools/?id=docs_gateway)
+
+ **Serverless Computing**
+
+1. [Getting Started - Serverless Deep Dive](https://aws.amazon.com/getting-started/deep-dive-serverless/) (recommended)
+2. [Getting Started with AWS Lambda and Serverless Computing](https://www.youtube.com/watch?v=Y9E-jqbd3eI) (55 min video)
+3. [Build a Serverless Web Application](https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/) (2 hours)
+
+**AWS Lambda:**
+
+1. [What is AWS Lambda?](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+2. [Creating Lambda function with Console](https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html)
+3. [Lambda Blueprints](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-features.html#gettingstarted-features-blueprints)
+4. [Adding triggers to Lambda](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-add-triggers-lam-console.html)
+
+**DynamoDB:**
+
+1. [What is DynamoDB?](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+2. [DynamoDB Streams](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Streams.Lambda.html)
+3. [DynamoDB Lambda Triggers](https://www.youtube.com/watch?v=SvfLORe3KHo)
+
+**Amazon Simple Notification Service (SNS):**
+
+1. [What is Amazon SNS?](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
+
+**Amazon Simple Email Service (SES):**
+
+1. [What is Amazon SES?](https://docs.aws.amazon.com/ses/latest/dg/Welcome.html)
+2. [Sending Email using SES](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/send-using-sdk-python.html)
+
+**Amazon Identity and Access Management (IAM):**
+
+1. [What is IAM?](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+2. [Introduction to AWS IAM](https://www.youtube.com/watch?v=Ul6FW4UANGc)
+3. [Attaching policies to IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage-attach-detach.html)
 
 [boto3]: https://boto3.amazonaws.com/v1/documentation/api/latest/index.httml
 [S3]: https://docs.aws.amazon.com/AmazonS3/latest/userguide/GetStartedWithS3.html
