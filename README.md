@@ -1,8 +1,12 @@
 # Getting Started
 
+## Challenge
+
+We want to let a customer know when there is new content available in the Prime Video catalog.
+
 ## Step 1: Log into AWS
 
-Your mentor will provide instructions to log into the AWS console.
+Log into the AWS console. Instructions are provided in your team's chat room.
 
 ## Step 2: Create a DynamoDB table for catalog records
 
